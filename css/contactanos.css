@@ -1,0 +1,164 @@
+/* AQUI VA TODO DEL MENU PRINCIPAL */
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background:#009081;
+}
+
+header{
+    width: 100%;
+}
+
+.UNO{
+	width: 1000px;
+	margin: 40px 350px ;
+	background: #fff;
+}
+
+.UNO ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 60px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #000000;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.foto2 
+{ 
+  padding: 0px; 
+  margin: 15px; 
+  border: 3px solid black; 
+  float: left; 
+  width: 220px; 
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+
+
+
+  
+  /*CSS DE PIE DE PAGINA*/
+  html {
+	min-height: 160%;
+	position: relative;
+  }
+  body {
+	margin: 0px;
+	margin-bottom: 10px;
+  }
+  footer {
+	background-color: rgb(0, 111, 115);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+  }
+
+
+  section{
+
+    width: 60%;
+    height: 25%;
+    float: right;
+    padding:100px;
+    padding-top: 30px;
+
+}
+
+.align-right1{ /*imagen1*/
+    width: 85%;
+    height: 100%;
+    margin: 10px 0px 0px 0px;
+    margin-left: 30px;
+    padding:10px;
+}
+.align-right2{ /*imagen1*/
+    width: 85%;
+    height: 100%;
+    margin: 10px 0px 0px 0px;
+    margin-left: 30px;
+    padding:10px;
+}
+
+
+aside{
+    
+    width: 35%;
+    height: 0px;
+    font-size: 18px;
+    margin: 0px 0px 0px 100px;
+    padding: 100px;
+    margin-top: 0px;
+
+}
+
+
+#SECTION{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 1470px;
+  min-height: 800px;
+  background: #008799;
+  margin: 30px;
+  border-style: solid;
+  border-color: #000;
+
+}
+#SECTION h2{
+  color: #031944;
+  margin: 100px 20px 0px 0px;
+}
+
+
+#imagenN4 img{
+  margin: 0px 0px 0px 0px;
+
+  
+  border-style: inset;
+  border-color: #000;
+    
+}
